@@ -1,6 +1,11 @@
+contactapp/migrations/__pycache__
+core/migrations/__pycache__
+userauths/migrations/__pycache__
+course/migrations
 contactapp/__pycache__
 baoiam/__pycache__
 core/__pycache__
 dashboard/__pycache__
 userauths/__pycache__
 *.pyc
+env/
