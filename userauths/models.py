@@ -5,9 +5,9 @@ from django.contrib.postgres.fields import ArrayField
 from datetime import date
 
 # Create your models here.
-
-
 #user = models.OneToOneField(settings.AUTH_USER_MODEL)
+
+
 
 class Dashboard_User(models.Model):
 
@@ -29,10 +29,6 @@ class Dashboard_User(models.Model):
 
     def __str__(self):
         return self.user.username
-
-    
-
-   
 
     
 class Employee(models.Model):
