@@ -1,5 +1,5 @@
 from django.db import models
-from django.contrib.auth.models import User
+from django.contrib.auth.models import User, PermissionsMixin
 from django.contrib.postgres.fields import ArrayField
 
 from datetime import date
@@ -29,6 +29,9 @@ class Dashboard_User(models.Model):
 
     def __str__(self):
         return self.user.username
+    
+    
+
 
     
 
